@@ -1,5 +1,5 @@
 # pseudokodzik
-Język programowania, jak najbardziej zbliżony do pseudokodu, stworzony w celach naukowych.
+Język programowania, jak najbardziej zbliżony do pseudokodu, stworzony w celach naukowo-dydaktycznych.
 
 ## Użytkowanie:
 
@@ -75,5 +75,25 @@ dla literka z tab:
   wypisz literka
 ```
 
+#### Instrukcja przerwij i kontynuuj
+```
+x = 5
+dopoki Prawda:
+  gdy x == 69:
+    kontynuuj
+  gdy x == 100:
+    przerwij
+  wypisz x
+  x = x+1
+```
+
+#### Funkcje
+```
+funkcja czy_parzysta(n):
+  gdy n % 2 == 0:
+    zwroc Prawda
+  zwroc Falsz
+```
+
 Słowa kluczowe:
-[dla, z, gdy, tylko, inaczej, wypisz, wczytaj]
+[dla, z, gdy, tylko, inaczej, wypisz, wczytaj, przerwij, kontynuuj, funkcja, zwroc]
