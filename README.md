@@ -4,12 +4,12 @@ Język programowania, jak najbardziej zbliżony do pseudokodu, stworzony w celac
 ## Użytkowanie:
 
 #### Komentarze
-```
+```python
 # To jest komentarz
 ```
 
 #### Deklarowanie zmiennych
-```
+```python
 logiczna = Prawda
 calkowito_liczbowa = 8
 zmienno_przecinkowa = 8.7
@@ -17,14 +17,14 @@ tesktowa = "abc"
 ```
 
 #### Instrukcje wejścia/wyjścia
-```
+```python
 wypisz "To jest zmienna: " zmienna " ."
 wczytaj a
 wczytaj a b c
 ```
 
 #### Instukcje warunkowe
-```
+```python
 gdy x < 10:
   wypisz "x pasuje"
 gdy tylko x < 5:
@@ -34,14 +34,14 @@ inaczej:
 ```
 
 #### Petla dopoki
-```
+```python
 dopoki x < 10:
   wypisz x
   x = x + 1
 ```
 
 #### Petla iteracyjna
-```
+```python
 dla i = 1, 2 ... 10:
   wypisz i
 
@@ -54,7 +54,7 @@ dla i = start, start+przejcie, ... stop: # wlacznie
 ```
 
 #### Tablice
-```
+```python
 tab = [1, 2, 3]
 tab = [8] # [0, 0, 0, 0, 0, 0, 0, 0]
 tab[1] = 1
@@ -67,16 +67,14 @@ tab[4] = 4
 ```
 
 #### Petle iteratorowe
-postac: 
-dla zmienna z tablica:
-```
+```python
 tab = ["a", "b", "c"]
 dla literka z tab:
   wypisz literka
 ```
 
 #### Instrukcja przerwij i kontynuuj
-```
+```python
 x = 5
 dopoki Prawda:
   gdy x == 69:
@@ -88,7 +86,7 @@ dopoki Prawda:
 ```
 
 #### Funkcje
-```
+```python
 funkcja czy_parzysta(n):
   gdy n % 2 == 0:
     zwroc Prawda
